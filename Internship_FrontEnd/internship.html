@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Akun</title>
+    <link rel="stylesheet" href="internship.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image_login/image 4 (1).png" alt="Telkom Indonesia">
+            <img src="image_login/image 8.png" alt="Telkom Test House">
+        </div>
+        <h1>Daftar Akun</h1>
+        <p>Lengkapi data diri anda / Complete Your Personal Data</p>
+        <form>
+            <label for="fullname">Nama Lengkap (Sesuai KTP) / Full Name (According to ID Card)</label>
+            <input type="text" id="fullname" name="fullname">
+            
+            <label for="email">Email (Perusahaan atau Pribadi) / Email (Your Corporate Mail or Personal)</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="status">Status / Status</label>
+            <select id="status" name="status">
+                <option value="employee">Employee</option>
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="company">Instansi Kampus Sekolah / School Campus Institutions / </label>
+            <input type="text" id="company" name="company">
+            
+            <label for="id_card">Kartu Identitas / ID Card</label>
+            <input type="text" id="id_card" name="id_card">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            
+            <label for="confirm_password">Masukan Ulang Password / Re-enter Password</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+            
+            <label for="phone">Nomor Telepon / Phone Number</label>
+            <input type="text" id="phone" name="phone">
+            
+            <div class="buttons">
+                <a href="home.html"><button type="button" class="back">Kembali / Back</button></a>
+                <button type="submit" class="next">Selanjutnya / Next</button>
+            </div>
+        </form>
+        <p class="login-link">Sudah Punya Akun? <a href="#">Masuk</a></p>
+    </div>
+    
+</body>
+</html>
